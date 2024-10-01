@@ -7,6 +7,8 @@ import Features from "./components/Features";
 import HowItWorks from "./components/HowItWorks";
 import Footer from "./components/Footer";
 
+import { SpeedInsights } from "@vercel/speed-insights/react";
+
 const App = () => {
   return (
     <main className="bg-black">
@@ -17,6 +19,7 @@ const App = () => {
       <Features />
       <HowItWorks />
       <Footer />
+      <SpeedInsights />
     </main>
   );
 };
